@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- date_picker和time_picker的控件宽度 -->
+    <dimen name="picker_width">300dp</dimen>
+    <!-- date_picker和time_picker的控件高度 -->
+    <dimen name="picker_height">200dp</dimen>
+    <!-- data_time_picker控件的item高度,200 / 5 = 40 -->
+    <dimen name="item_picker_height">40dp</dimen>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dt_tab_normal">#F5F5F5</color>
+    <color name="bg_dt_tab_sel_pre">#FFFFFF</color>
+    
+    <color name="txt_dt_tab_normal">#000000</color>
+    <color name="txt_dt_tab_sel_pre">#F1582A</color>
+    <color name="txt_sel">#F1582A</color>
+    
+    <color name="seperate_line">#b2b2b2</color>
+</resources>

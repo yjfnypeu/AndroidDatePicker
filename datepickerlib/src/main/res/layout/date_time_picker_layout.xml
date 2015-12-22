@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+        
+     	<TextView 
+     	    android:id="@+id/dt_picker_tab_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/txt_tab_date"
+            android:background="@drawable/dt_tab_bg_selector"
+            android:textColor="@drawable/dt_tab_txt_selector"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            />
+     	
+        <TextView
+            android:id="@+id/dt_picker_tab_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dt_tab_bg_selector"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/txt_tab_time"
+            android:textColor="@drawable/dt_tab_txt_selector" />
+        
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/seperate_line"
+        />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <org.lzh.datepickerlib.dtpicker.DatePicker
+            android:id="@+id/dt_picker_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+        
+        <org.lzh.datepickerlib.dtpicker.TimePicker
+            android:id="@+id/dt_picker_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/seperate_line"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+        
+     	<TextView
+     	    android:id="@+id/dt_picker_tab_select"
+     	    android:layout_width="0dp"
+     	    android:layout_height="match_parent"
+     	    android:layout_weight="1"
+     	    android:background="@drawable/dt_tab_bg_selector"
+     	    android:gravity="center"
+     	    android:padding="5dp"
+     	    android:text="@string/txt_sure"
+     	    android:textColor="@drawable/dt_tab_txt_selector" />
+     	
+    </LinearLayout>
+
+</LinearLayout>
